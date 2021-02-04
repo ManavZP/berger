@@ -1,0 +1,42 @@
+	h1{
+	color:gold;	
+	font-size:50px;
+	}
+	
+	p{
+	color:azure;
+	font-size:25px;
+	}	
+	
+	body{
+	background-image: url(bg.jpg);
+    background-attachment: fixed;
+	}
+        
+    img{
+        height: 400px;
+        width: 700px;
+    }
+    .pic{
+        height: 400px;
+        width: 700px;
+        background-image: url(bana.jpeg);
+        background-size: 100%;
+        transition: 0.5s all ease-in-out;
+    }
+    .pic:hover{
+        background-image: url(hover.png);
+        background-size: 100%;
+        transition: 0.5s all ease-in-out;
+    }
+	#everything {
+	margin-top:40px;
+	}	
+	
+	
+	#main {
+	margin-top:30px;
+	padding:20px;
+	}
+	
+
